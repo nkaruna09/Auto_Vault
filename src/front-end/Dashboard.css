@@ -1,0 +1,115 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 4rem;
+    color: #9b59b6; /* Purple color */
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Dashboard page styling */
+  .dashboard {
+    background: linear-gradient(135deg, #6a1b9a, #2196f3); /* Purple to Blue gradient */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .password-form {
+    margin-bottom: 30px;
+  }
+  
+  .password-form h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border: 2px solid #9b59b6;
+    background-color: #ffffff;
+  }
+  
+  .add-password-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #9b59b6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-password-button:hover {
+    background-color: #8e44ad; /* Darker purple */
+  }
+  
+  .add-password-button:active {
+    background-color: #7d3c9c; /* Even darker purple */
+  }
+  
+  .password-table h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #6a1b9a;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f3f3f3;
+    color: black;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  

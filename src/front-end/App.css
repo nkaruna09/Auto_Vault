@@ -1,0 +1,92 @@
+/* General reset and body styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Title styling */
+.title {
+  font-size: 5rem;
+  color: #9b59b6; /* Purple color */
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Login form styling */
+.login-container {
+  background: linear-gradient(135deg, #6a1b9a, #2196f3); /* Purple to Blue gradient */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  text-align: center;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  font-size: 1rem;
+  color: black;
+}
+
+.input-field:focus {
+  outline: none;
+  border: 2px solid #9b59b6;
+  background-color: #ffffff;
+}
+
+/* Shared button styling */
+.button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white; /* Ensures text is white */
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Adds spacing between buttons */
+}
+
+/* Login button specific styles */
+.login-button {
+  background-color: #9b59b6; /* Purple */
+}
+
+.login-button:hover {
+  background-color: #8e44ad; /* Darker purple */
+}
+
+.login-button:active {
+  background-color: #7d3c9c; /* Even darker purple */
+}
+
+/* Register button specific styles */
+.register-button {
+  background-color: #2196f3; /* Blue */
+}
+
+.register-button:hover {
+  background-color: #1976d2; /* Darker blue */
+}
+
+.register-button:active {
+  background-color: #1565c0; /* Even darker blue */
+}
